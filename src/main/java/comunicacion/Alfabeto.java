@@ -40,14 +40,13 @@ public class Alfabeto extends Pictograma {
 	}
 	
 	public String toString() {
-		if (letras.length == 0) {
-		    return "";
+		String salida = "";
+		for (int i = 0; i < letras.length; i++) {
+				salida += letras[i];
+			if (!(i == letras.length - 1)) {
+				salida += ", ";
+			}
 		}
-
-		String s = letras[0];
-		for (int i = 1; i < letras.length; i++) {
-		    s += ", " + letras[i];
-		}
-		return s;
+		return salida;
 	}
 }
