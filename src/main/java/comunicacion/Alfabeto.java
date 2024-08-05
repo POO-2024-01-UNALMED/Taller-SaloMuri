@@ -2,18 +2,15 @@ package comunicacion;
 
 public class Alfabeto extends Pictograma {
 	
-	//atributos
 	private String[] letras;
 	private String interpretacion;
 	
-	//constructor
 	public Alfabeto(String origen, String[] letras, String interpretacion) {
 		super(origen);
 		this.letras = letras;
 		this.interpretacion = interpretacion;
 	}
 	
-	//setters y getters
 	public String[] getLetras() {
 		return letras;
 	}
@@ -30,7 +27,6 @@ public class Alfabeto extends Pictograma {
 		this.interpretacion = interpretacion;
 	}
 	
-	//metodos de la clase
 	public int cantidadLetras() {
 		return letras.length;
 	}
