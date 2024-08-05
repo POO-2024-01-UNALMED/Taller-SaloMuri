@@ -41,11 +41,11 @@ public class Fabula extends Escrito{
 	}
 	
 	public String toString() {
-		String valor = this.getOrigen() + "\n";
-		valor += this.getTitulo() + "\n";
-		valor += this.getAutor() + "\n";
-		valor += this.getPaginas() + "\n";
-		valor += ensenanza + "\n";
+		String valor = this.getOrigen() + "\n" +
+	               this.getTitulo() + "\n" +
+	               this.getAutor() + "\n" +
+	               this.getPaginas() + "\n" +
+	               ensenanza + "\n";
 		return valor;
 	}
 }
