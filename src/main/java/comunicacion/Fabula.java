@@ -28,7 +28,7 @@ public class Fabula extends Escrito{
 	}
 	
 	public int palabrasTotales(int r) {
-		int total = this.getPaginas()*r*1;
+		int total = this.getPaginas() * r * 1;
 		return total;
 	}
 	
